@@ -1,0 +1,35 @@
+<html>
+<body>
+    <!--This is a HTML Comment -->
+    <p>Hello World</p>
+
+    <!-- embeded  google calander -->
+    <h1> My Google Calander </h1>
+    <iframe src="https://calendar.google.com/calendar/embed?src=mclaugrj%40clarkson.edu&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    
+    <!-- Select color -->
+    <lablel for="setcolor">select color</lablel>
+        <input type="color" id = "setcolor">
+
+    <!-- Drop down box -->    
+    <details>
+        <summary>Open Me</summary>
+        <p>AHHHHH</p>
+    </details>
+
+    <!-- auto complete -->
+    <input list = "subjects">
+    <datalist id = "subjects">
+        <option>plant</option>
+        <option>water</option>
+        <option>food</option>
+    </datalist>
+
+    <!-- emojis -->
+    <h2>Sized Emojis</h2>
+    <p style = "font-size:200px">
+        &#128512; &#128516; &#128513; &#128514;
+    </p>
+
+</body>
+</html>
